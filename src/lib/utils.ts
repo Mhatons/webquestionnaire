@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export const BASE_URL = process.env.BASE_URL || "http://localhost:5000"
+export const BASE_URL = "http://localhost:5000"
 
 export const formatPrice = (price: number) => {
   return new Intl.NumberFormat("en-NG", {
